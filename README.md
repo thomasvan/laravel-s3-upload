@@ -30,3 +30,8 @@ npm run dev
 ```bash
 composer require league/flysystem
 ```
+
+```bash check
+composer require league/flysystem-aws-s3-v3
+delete databases and rerun php artisan migrate
+```
