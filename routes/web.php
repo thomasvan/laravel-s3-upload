@@ -17,6 +17,6 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/images', 'ImageController@getImages')->name('images');
 Route::post('/upload', 'ImageController@postUpload')->name('uploadfile');

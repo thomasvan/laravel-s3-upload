@@ -35,6 +35,9 @@
                         <button type="button" class="close" data-dismiss="alert">&times;</button>
                         {{session('success')}}
                     </div>
+                    <div>
+                        <img src="{{session('url')}}"/>
+                    </div>
                 @endif
             </div>
         </div>
